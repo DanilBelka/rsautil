@@ -148,7 +148,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="OptionsHandler.cpp" />
     <ClCompile Include="rsautil.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ExecutionCodes.h" />
+    <ClInclude Include="OptionsHandler.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
